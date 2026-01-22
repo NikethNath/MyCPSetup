@@ -12,6 +12,11 @@ using vpll = vector<pll>;
 #define pb push_back
 const int inf = 1e9;
 
+bool comp(pii a, pii b ){
+    if(a.second<b.second) return true;
+    return false;
+}
+
 int main() {
     #ifndef ONLINE_JUDGE
         freopen("input.txt", "r", stdin);
